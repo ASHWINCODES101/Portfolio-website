@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    width:100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* stying hr */
+hr{
+    height: 1.2px;
+    border: 0;
+    background: white;
+    margin: 50px 100px 50px;
+}
+/* NAvbar stying */
+nav {
+    height: 75px;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    top: 0px;
+    padding: 0 4.5rem;
+}
+.navbar-collapse {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+     /* Same color as above */
+  }
+
+  @media (max-width: 767px) {
+navbar-brand{
+   margin-left: 70px;
+}
+navbar-toggler{
+    margin-right: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    padding-top: 13px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.left{
+    font-size: 1.5rem;
+}
+  }
+
+/* Main page stying */
+.first_section{
+    padding: 16% 6% 7%
+}
+.imagee{
+    width: 75%;
+}
+.leftsection{
+    width:50%;
+    font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  #Home{
+    align-items: center;
+    text-align: left;
+    font-size: 2px;
+  } 
+  .leftsection{
+    width:max-content;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 35px;
+  }
+  .rightsection{
+    align-items: center;
+  }
+  .imagee{
+    margin: 40px;
+    width: 80%;
+  }
+}
+
+/* hobbies section */
+#hobbies{
+    width: 100%;
+}
+.second_section{
+    background-color: white;
+    padding: 3% 15% 7%;
+    color: black;
+    align-items: center;
+}
+.hobbies_title{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+ .hobbsec{
+    align-items: center;
+    text-align: center;
+    padding: 8% 1% 0;
+    
+ }
+ .row h3{
+    padding: 5%;
+ }
+
+ /* about me */
+ .third_section{
+    padding:5% 7% 10%;
+    align-items: center;
+    text-align: left;
+ }
+ .imagesec{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100%;
+ }
+ 
+ .myimg{
+    width: 65%;
+    border-radius: 10%;
+ }
+ /* About me section */
+ #Aboutme{
+    padding: 50px;
+ }
+#Aboutme span{
+    color: rgb(230, 21, 21);
+    font-weight: 500;
+    font-size: 1rem;
+}
+@media (max-width: 767px) {
+  .imagesec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 20px;
+  }
+  .myimg{
+    margin: 40px;
+  }  
+}
+
+#Contact{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    
+}
+.btn{
+    background-color: black;
+}
+.aaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+@media (max-width: 767px) {
+    #Contact{
+        width: 100%;
+        padding: 20px;
+    }
+
+  }
+
